@@ -5,7 +5,7 @@ pipeline {
 environment {
         PIPELINE_HASH = sh(script: 'git rev-parse --short HEAD', returnStdout: true).trim()
         HARBOR_REGISTRY = 'registry.dev.afsmtddso.com'
-        HARBOR_PROJECT = 'ncaple-harbor-auth'
+        HARBOR_PROJECT = 'ncaple-harbor-project'
         APP_IMAGE_NAME = 'app'
         DB_IMAGE_NAME = 'db'
     }
