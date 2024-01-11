@@ -8,7 +8,7 @@ environment {
         HARBOR_PROJECT = 'ncaple-harbor-project'
         APP_IMAGE_NAME = 'app'
     }
-    //TODO("Lab 4 - Artifact Management"): add environment variables
+    //TODO("Lab 4 - Artifact Management"): add environment variabless
     stages {
         stage('Application repository') {
             steps {
